@@ -31,3 +31,13 @@ def multiply(nums)
     end
     return total
 end
+
+def power(number, power)
+    result = number
+    i = 1
+    while i != power
+        result = result * number
+        i += 1
+    end
+    return result
+end
