@@ -19,3 +19,14 @@ def sum(nums_to_sum)
     end
     return total
 end
+
+def multiply(nums)
+    # Define total as 0 for a fresh start every time
+    total = 0
+    # Set iterator to 0 also for fresh start
+    i = 0
+    while i < nums.length
+        total = total * nums[i]
+        i += 1
+    end
+end
