@@ -41,3 +41,13 @@ def power(number, power)
     end
     return result
 end
+
+def factorial(num)
+    i = num
+    result = num
+    while i != 0
+        result = result * num
+        i -= 1
+    end
+    return result
+end
