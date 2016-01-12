@@ -29,4 +29,5 @@ def multiply(nums)
         total = total * nums[i]
         i += 1
     end
+    return total
 end
