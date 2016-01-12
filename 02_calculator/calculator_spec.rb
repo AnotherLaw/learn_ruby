@@ -98,7 +98,9 @@ end
 
 # http://en.wikipedia.org/wiki/Factorial
 describe "#factorial" do
-  it "computes the factorial of 0"
+    it "computes the factorial of 0" do
+        expect(factorial(0)).to eq(0)
+    end
   it "computes the factorial of 1"
   it "computes the factorial of 2"
   it "computes the factorial of 5"
