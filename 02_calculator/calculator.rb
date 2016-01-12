@@ -46,7 +46,7 @@ def factorial(num)
     i = num
     result = num
     while i != 0
-        result = result * num
+        result = result * i
         i -= 1
     end
     return result
