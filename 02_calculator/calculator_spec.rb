@@ -93,6 +93,7 @@ end
 describe "#power" do
     it "raises one number to the power of another number" do
         expect(power(4,4)).to eq(256)
+    end
 end
 
 # http://en.wikipedia.org/wiki/Factorial
