@@ -22,7 +22,7 @@ end
 
 def multiply(nums)
     # Define total as 0 for a fresh start every time
-    total = 0
+    total = 1
     # Set iterator to 0 also for fresh start
     i = 0
     while i < nums.length
